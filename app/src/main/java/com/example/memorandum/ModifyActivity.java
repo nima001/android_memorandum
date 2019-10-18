@@ -4,24 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 import android.widget.AdapterView;
 
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.com.example.adapter.ClassifyAdapter;
+import com.example.adapter.ClassifyAdapter;
 import com.example.entity.Classify;
 import com.example.helper.MyDatabaseHelper;
 

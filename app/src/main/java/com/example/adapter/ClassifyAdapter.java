@@ -1,24 +1,19 @@
-package com.example.com.example.adapter;
+package com.example.adapter;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.example.entity.Classify;
 import com.example.helper.MyDatabaseHelper;
-import com.example.memorandum.ModifyActivity;
 import com.example.memorandum.R;
 
 import java.util.List;

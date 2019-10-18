@@ -8,7 +8,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
-import com.example.com.example.adapter.MemoAdapter;
+import com.example.adapter.MemoAdapter;
 import com.example.entity.Memorandum;
 import com.example.helper.MyDatabaseHelper;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -30,7 +30,6 @@ import android.view.Menu;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
