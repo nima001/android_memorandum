@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/complete"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="已完成" />
+    <item
+        android:id="@+id/incomplete"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="未完成" />
+    <item
+        android:id="@+id/all"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="显示全部" />
+</menu>
